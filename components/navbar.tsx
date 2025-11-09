@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Logo } from "./logo"
 import { Container } from "./container";
+import { Button } from "./ui/button";
 
 
 export const Navbar = () => {
@@ -40,15 +41,15 @@ export const Navbar = () => {
           ))}
         </div>
         <div className="gap-4 flex  items-center">
-          <Link href="/login" className="text-sm">
+          <Link href="/login" className="text-sm px-4 py-2 rounded-md">
             Login
           </Link>
-          <Link
-            href="/signup"
+          <Button
+
             className="bg-black text-sm rounded-md px-4 py-2 text-white"
           >
             Signup
-          </Link>
+          </Button>
         </div>
       </Container>
     </div>
