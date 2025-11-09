@@ -14,3 +14,4 @@ export const Subheading = ({className , children, as = 'h2'}:{
     </Tag>
   )
 }
+ 
